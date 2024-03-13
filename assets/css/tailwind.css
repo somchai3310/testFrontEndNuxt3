@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gray-50;
+    background-color: #E9E9E9;
 }
 
 @layer components {
-    .btn {
-        @apply bg-[#121212] text-white;
+    .btn-primary {
+      background: linear-gradient(180deg, #9C79FF 0%, #2B66FF 100%);
+        /* @apply rounded; */
+    }
+    .btn-secondary {
+      background: linear-gradient(180deg, #FDF64C 0%, #EF7A0E 100%);
+        /* @apply rounded; */
     }
 }
