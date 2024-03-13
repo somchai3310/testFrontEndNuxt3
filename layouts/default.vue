@@ -56,7 +56,7 @@
     </header>
 
     <!-- content -->
-    <div class="container mx-auto p-4">
+    <div class="container mx-auto px-[70px]">
       <slot />
     </div>
 
